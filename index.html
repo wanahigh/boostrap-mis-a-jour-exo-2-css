@@ -3,6 +3,7 @@
   <head>
         <meta charset="utf-8">
         <title>Maquette-2</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <link rel="stylesheet" href="css/master.css">
       <link rel="stylesheet" href=css/bootstrapCustom.css>
         <script src="js/jquery.js"></script>
@@ -10,7 +11,7 @@
   </head>
   <body>
 
-    
+
       <header >
 
 
@@ -20,45 +21,54 @@
                   <!-- <a class="navbar-brand" href="#">
                          <img alt="Brand" src="...">
                        </a> -->
-               <nav class=".navbar-default .navbar-nav  " >
-                     <a id= class="navbar-brand" href="#">
-                        <img src="./img/logo.png" alt="Brand" class="logos">
-               <!-- <img class="logo" src="./img/logo.png" class="logo">  -->
-                     </a>
-                <ul class="nav">
-                   <li><a href="#"> Service</a></li>
-                   <li><a href="index.html">   Portfolio</a></li>
+              <nav class="navbar">
+
+               <div class="navbar-header">
+                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                   <span class="sr-only">Toggle navigation</span>
+                   <span class="icon-bar"></span>
+                   <span class="icon-bar"></span>
+                   <span class="icon-bar"></span>
+                 </button>
+                 <a class="navbar-brand" href="#"></a><img src="img/logo.png">
+               </div>
+               <div id="navbar" class="collapse navbar-collapse">
+                 <ul class="nav navbar-nav-">
+                   <li><a href="index.html">    Services</a></li>
                    <li><a href="index.html">    Testimonials</a></li>
-                   <li><a href="#stitre">    Teams</a></li>
+                   <li><a href="#stitre">       Teams</a></li>
                    <li><a href="index.html">    Contact</a></li>
-                   <li><a href="index.html">    Archives</a></li>
-                </ul>
-              </nav>
+
+                   <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Archives <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                      <li><a href="#">Action</a></li>
+                      <li><a href="#">Another action</a></li>
+                      <li><a href="#">Something else here</a></li>
+                      <li role="separator" class="divider"></li>
+                      <li><a href="#">Separated link</a></li>
+                    </ul>
+
+                 </ul>
+               </div><!--/.nav-collapse -->
+           </nav>
 
 
               <div class="jumbotron">
            <h1 class="titre">A Flexible one page porte folio theme</br>for a full and user experience </h1>
            <p class="sous-titre"> we implement awesomme ideas into full-scale projects.</p>
-           <!-- <button type="button1" name="button1">See more</button> -->
-          <p><a class="btn btn-warning btn-lg" href="button1" role="button">See more</a></p>
+           <button id="btn1" type="button" name="button1">See more</button>
+
          </div>
        </div>
      </div>
      </div>
       </header>
 
+    <a href="#"></a> Portfolio</a></li>
 
 
 
-
-
-          <div class="titre">
-
-
-
-
-          <input class="button1" type="submit" name="valider" value="See more"/>
-        </div>
       </header>
       <div class="stitre">
         <h3>Fine Features</h3>
@@ -66,8 +76,12 @@
             <hr>
           </div>
       </div>
-      <section class="section1">
-        <article>
+
+
+      <section class="container2">
+
+        <article class="jumbo jumbotron">
+
           <div class="bloc">
             <img class="image" src="img/icon1.png" alt="icone 1"/>
             <div class="bloctexte">
@@ -81,10 +95,12 @@
               <h4>Themed to be elegant</h4>
               <p> Meth is a simple blogging theme from your friends at Codestag.</p>
             </div>
+        </div>
           </div>
         </article>
 
-        <article>
+
+        <article class="jumbo jumbotron">
           <div class="bloc">
             <img class="image" src="img/icon2.png" alt="icone 4"/>
             <div class="bloctexte">

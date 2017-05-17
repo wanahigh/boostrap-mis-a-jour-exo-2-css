@@ -1,4 +1,23 @@
+.icon-bar {
+border:2px solid white;
+}
 
+
+#navbar a:hover,
+#navbar a:focus {
+	background-color:#F57E37;
+	color:white
+}
+
+
+.jumbo{
+	display:flex;
+	margin-left:25%;
+}
+
+.container2{
+ margin-left: 25%;
+}
 #jumble{
 	background-image: url("../img/image1.jpg");
 	background-repeat: no-repeat;
@@ -7,10 +26,15 @@
 	height: 700px;
 	width: auto;
 	padding-left: 50px;
-
 }
 /*commit*/
 
+#btn1{
+	background-color:#F57E37;
+	border:1px solid #F57E37;
+	width: 15vw;
+	height:5vh;
+}
 .logos{
 	float: left;
 	margin-left: -78vw;
