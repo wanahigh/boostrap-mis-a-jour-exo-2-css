@@ -1,18 +1,17 @@
-
 .icon-bar {
 border:2px solid white;
 }
 
-/*img #logo{
-
-
-}*/
 #navbar a:hover,
 #navbar a:focus {
 	background-color:#F57E37;
 	color:white
 }
 
+
+.stitre h3{
+	text-align:center;
+}
 
 .jumbo{
 	display:flex;
@@ -22,33 +21,76 @@ border:2px solid white;
 
 	align-items: center;
 }
+.container11{
 
-.container3 {
-	
- margin-left: 25%;
- display:flex;
- padding:auto;
- position:relative;
-}
-.container4{
+padding-left:25%;
+padding-right:25%;
 display:flex;
+flex-direction: block;
+text-align:center;
 }
-
-.container5{
+.container22{
+padding-left:25%;
+padding-right:25%;
 display:flex;
+flex-direction: block;
+text-align:center;
 }
-.bloctexte h3{
-	float:right;
+
+.container33{
+	margin-left:20%;
 
 }
+
+
+.container33 img{
+
+max-width:300px;
+max-height:300px;
+	flex-direction:block;
+}
+
+.container44{
+margin-left:20%;
+}
+
+*{border:1px solid black;}
+
+
+.container44 img{
+
+	max-width:300px;
+	max-height:300px;
+	flex-direction:block;
+}
+
+
+.container66 img{
+	display:flex;
+	align-content: space-between;
+}
+#honest{
+	background-color:#F57E37;
+	border:1px solid black;
+	background-size: cover;
+	height:200px;
+}
+.static{
+	background-image: url("../img/image2.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 700px;
+	width: auto;
+
+}
+
 #jumble{
 	background-image: url("../img/image1.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
-	border: 1px solid red;
 	height: 700px;
 	width: auto;
-	padding-left: 50px;
+
 }
 /*commit*/
 
@@ -75,15 +117,19 @@ display:flex;
 .container2{
 	display:flex;
 }
-.stitre{
-	padding-left: 25%;
+.stitre1{
+	padding-left:25%;
 }
+
+
 
 #navbar2 a{
 	background-color:transparent;
 color:black;
 text-align: center;
 }
+
+
 #navbar2 a:hover,
 #navbar2 a:focus {
 	background-color:#F57E37;
@@ -115,4 +161,9 @@ color:white;
 
 #logo{
   margin:12.5%
+}
+.jumba {
+	background-image: url(../img/image2.jpg);
+	display: block;
+	background-size: cover;
 }
