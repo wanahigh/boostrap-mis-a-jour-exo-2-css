@@ -1,0 +1,55 @@
+
+#jumble{
+	background-image: url("../img/image1.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	border: 1px solid red;
+	height: 700px;
+	width: auto;
+	padding-left: 50px;
+
+}
+/*commit*/
+
+.logos{
+	float: left;
+	margin-left: -78vw;
+
+}
+#nav , a{
+  float:right;
+  text-decoration: none;
+  word-spacing: normal;
+}
+
+
+
+#logos{
+  margin-left:10%;
+  float:left;
+}
+
+
+>>>>>>> origin/master
+ul {
+  display:flex;
+  float:right;
+
+}
+
+li {
+  text-decoration: none;
+
+}
+
+h1 .titre {
+  color:white;
+}
+
+.sous-titre{
+color:white;
+}
+
+#logo{
+  margin:12.5%
+}
