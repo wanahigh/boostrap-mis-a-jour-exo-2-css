@@ -28,6 +28,7 @@ padding-right:25%;
 display:flex;
 flex-direction: block;
 text-align:center;
+position:relative;
 }
 .container22{
 padding-left:25%;
@@ -83,16 +84,30 @@ margin-left:20%;
 
 }
 
+.container-fluid
+ {background-color:S}
+
+#jumboO{
+	color:black!important;
+	padding-left:25%;
+	padding-right:25%;
+}
+
+
 .jumble{
 	background-image: url("../img/image1.jpg");
+
 	background-repeat: no-repeat;
 	background-size: cover;
 	height: 700px;
 	width: auto;
-
 }
 /*commit*/
-
+#jumble{
+filter: brightness(0.5);
+	border:2px solid red;
+	background-color: black!important;
+}
 #btn1{
 	background-color:#F57E37;
 	border:1px solid #F57E37;
@@ -165,4 +180,9 @@ color:white;
 	background-image: url(../img/image2.jpg);
 	display: block;
 	background-size: cover;
+}
+
+footer{
+	background-color:black;
+	color:white;
 }
